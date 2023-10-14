@@ -1,0 +1,348 @@
+body{
+    margin: 3px;
+}
+
+/*
+
+button{
+    border: 0;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 6px;
+}
+
+*/
+
+.header{
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.lesson{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Lesson 2, 3 & 4 */
+
+.subscribebutton{
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    vertical-align: top;
+}
+
+.subscribebutton:hover{
+    opacity: 0.7;
+}
+
+.subscribebutton:active{
+    opacity: 0.4;
+}
+
+.joinbutton{
+    background-color: white;
+    border-color: rgb(0, 93, 214);
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(0, 93, 214);
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: background-color 0.5;
+    transition: color 0.5;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.joinbutton:hover{
+    background-color: rgb(0, 93, 214);
+    color: white;
+}
+
+.joinbutton:active{
+    opacity: 0.7;
+}
+
+.tweetbutton{
+    background-color: rgb(0, 140, 255);
+    color: white;
+    border: none;
+    border-radius: 18px;
+    font-weight: bolder;
+    font-size: 17px;
+    cursor: pointer;
+    transition: box-shadow 0.5;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    vertical-align: top;
+}
+
+.tweetbutton:hover{
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25); 
+}
+
+.tweetbutton:active{
+    opacity: 0.7;
+}
+
+.addtocart{
+    background-color: rgb(255, 216, 20);
+    border: none;
+    height: 36px;
+    width: 165px;
+    border-radius: 18px;
+    margin-left: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.addtocart:hover{
+    background-color: rgb(255, 200, 20);
+}
+
+.addtocart:active{
+    opacity: 0.7;
+}
+
+
+.getstarted{
+    background-color: rgb(121, 82, 179);
+    color: white;
+    border-width: 0.99px;
+    height: 36px;
+    width: 105px;
+    font-weight: bolder;
+    border-radius: 4px;
+    border-style: solid;
+    cursor: pointer;
+}
+
+
+.buynow{
+    background-color: rgb(255, 164, 28);
+    border: none;
+    height: 36px;
+    width: 165px;
+    border-radius: 18px;
+    margin-left: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.buynow:hover{
+    background-color: rgb(255, 123, 0);
+}
+
+.buynow:active{
+    opacity: 0.7;
+}
+
+/* Lesson 5 */
+
+.videotitle{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 18px;
+    width: 280px;
+    line-height: 24px;
+    margin-bottom: 3px;
+}
+
+.videostats{
+    font-family: Arial;
+    font-size: 14px;
+    color: #606060;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.videoauthor{
+    font-family: Arial;
+    color: #606060;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.videodescription{
+    font-family: Arial;
+    font-size: 14px;
+    color: #606060;
+    width: 280px;
+    line-height: 15px;
+    margin-top: 0;
+}
+
+.applepromotion{
+    background-color: #e34140;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 16px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.shopnow{
+    color: white;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.shopnow:hover{
+    text-decoration: underline;
+}
+
+
+
+
+.applenew{
+    color: rgb(201, 112, 40);
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-family: Arial;
+    text-align: center;
+}
+
+.macbookpro{
+    font-weight: bold;
+    font-size: 27.5px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    font-family: Arial;
+    text-align: center;
+
+}
+
+.superchargedforpros{
+    font-weight: bolder;
+    font-size: 35px;
+    margin-top: 0;
+    margin-bottom: 7.5px;
+    font-family: Arial;
+    text-align: center;
+
+}
+
+.appleprice{
+    margin-top: 0;
+    margin-bottom: 7.5px;
+    font-family: Arial;
+    text-align: center;
+
+}
+
+.macbookprobuy{
+    text-align: center;
+}
+
+#macbookprobuy{
+    background-color: rgb(19, 128, 218);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 19px;
+    cursor: pointer;
+}
+
+#macbookprobuy:hover{
+    opacity: 0.7;
+}
+
+#macbookprobuy:active{
+    opacity: 0.3;
+}
+
+
+.name{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+.username{
+    font-weight: normal;
+    color: #606060;
+    font-family: Arial;
+}
+
+.timeposted{
+    font-weight: normal;
+    color: #606060;
+    font-family: Arial;
+}
+
+.description1{
+    font-size: 20px;
+    font-family: Arial;
+    width: 600px;
+}
+
+.description2{
+    font-size: 20px;
+    font-family: Arial;
+    width: 600px;
+}
+
+#description2{
+    color: rgb(71, 175, 245);
+}
+
+#description2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.currencyamount{
+    font-family: Arial;
+    font-size: 40px;
+    margin-bottom: 4px;
+}
+
+.currencygbp{
+    font-size: 25px;
+}
+
+.currencyup{
+    margin-top: 0;
+    color: rgb(10, 110, 10);
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-family: Arial;
+}
+
+.currencyah{
+    font-size: 20px;
+    margin-top: 0;
+    font-family: Arial;
+}
+
+.currencydown{
+    color: rgb(194, 0, 0);
+}
